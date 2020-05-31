@@ -1,0 +1,31 @@
+variable scope = area the variable is being defined 
+discussion if variables should be defined inside or outside of functions 
+
+
+VARIABLES
+-> mapping between name and object (@sertain position in computer)
+
+x = 5 (x is variable , and 5 is the value stored in memory) 
+
+- > namespaces is a dictionary, names are the keys in dictionary and values are the memory value 
+
+
+Defining inside vs. outside a function 
+
+outside function: GLOBAL variable == accessible from everywhere in the script 
+
+inside function: LOCAL variable == only accessible within that function 
+
+if you redefine a variable in a function (which has been defined outside of the function: value is changed depending where the variable is accessed 
+
+
+
+    Global Keybword (tells PY to use global variable value whenever value is being called) 
+    score = 0
+    def update_score(new_score):
+        global score
+    score = new_score
+    
+    
+The NonLocal Keyword 
+- tries to find variable defintion that is closesd 
